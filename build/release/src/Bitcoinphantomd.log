@@ -1,0 +1,12 @@
+2020-Jan-22 11:18:42.453263 INFO    [daemon] Bitcoinphantom v1.7.0.888 (cc5b92a)
+2020-Jan-22 11:18:42.454261 INFO    [daemon] Module folder: ./Bitcoinphantomd
+2020-Jan-22 11:18:42.454630 ERROR   [currency] failed to parse coinbase tx from hard coded blob
+2020-Jan-22 11:18:42.454854 ERROR   [currency] Failed to generate genesis block
+2020-Jan-22 11:20:38.040799 INFO    [daemon] Bitcoinphantom v1.7.0.888 (cc5b92a)
+2020-Jan-22 11:20:38.043711 INFO    [daemon] Module folder: ./Bitcoinphantomd
+2020-Jan-22 11:20:38.044421 ERROR   [currency] failed to parse coinbase tx from hard coded blob
+2020-Jan-22 11:20:38.044684 ERROR   [currency] Failed to generate genesis block
+2020-Jan-22 11:40:48.499111 INFO    [daemon] Bitcoinphantom v1.7.0.888 (cc5b92a)
+2020-Jan-22 11:40:48.500516 INFO    [daemon] Module folder: ./Bitcoinphantomd
+2020-Jan-22 11:40:48.500812 ERROR   [currency] failed to parse coinbase tx from hard coded blob
+2020-Jan-22 11:40:48.500954 ERROR   [currency] Failed to generate genesis block

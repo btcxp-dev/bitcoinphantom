@@ -1,0 +1,17 @@
+[Unit]
+Description=Bitcoinphantom BTCX service
+After=network.target
+
+[Service]
+Type=oneshot
+User=Bitcoinphantom
+Group=Bitcoinphantom
+PermissionsStartOnly=true
+RemainAfterExit=yes
+ExecStartPre=-/bin/mkdir -p /var/run/Bitcoinphantom
+ExecStartPre=/bin/chown -R Bitcoinphantom:Bitcoinphantom /var/run/Bitcoinphantom/
+ExecStart=/usr/lib/Bitcoinphantom/BTCXd.sh --start
+ExecStop=/usr/lib/Bitcoinphantom/BTCXd.sh --stop
+
+[Install]
+WantedBy=multi-user.target
